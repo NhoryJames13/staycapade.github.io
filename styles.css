@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+
+.overlay-container {
+  position: relative;
+  display: inline-block;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  color: white;
+  text-align: center;
+}
+.overlay-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1{
+  font-family: 'Ysabeau SC', sans-serif;
+  font-size: 90px;
+}
+
+ul,p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+}
+
+h2 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 25px;
+}
+
+@media (max-width: 767px) {
+  .overlay-text {
+    transform: translate(-50%, -50%);
+}
+  h1{
+    font-size: 30px;
+  }
+}
+  

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Staycapade - Host</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 nav-shadow">
+        <div class="container">
+          <a class="navbar-brand px-1" href="index.html"><img src="resources/sml-logo.png" alt="" style="max-width: 40%; height: auto; align-content: center;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end order-lg-last" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item px-2">
+                <a class="nav-link" href="host.html">Overview</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="hostcal.html">Calendar </a>
+              </li> 
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#">Inbox</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="proplist.html">Create New Listing</a>
+                  <a class="dropdown-item" href="#">Transaction History</a>
+                  <a class="dropdown-item" href="client.html">My Bookings</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="resources/man.png" alt="Profile Image" class="profdropdown-image">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Profile</a>
+                  <a class="dropdown-item" href="#">Account</a>
+                  <a class="dropdown-item" href="index.html">Back to Booking</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- Host Dashboard -->
+    <div class="container dashboard-container">
+        <h2 class="dashboard-title mt-5">Welcome, Host</h2>
+        <h3 class="dashboard-listings mt-5 d-flex justify-content-between align-items-center pb-3">
+            <span>Checkings</span>
+            <a href="proplist.html" class="text-end text-dark small">See All Listings</a>
+          </h3>
+          
+
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <div class="card dashboard-card mb-4">
+              <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-8">
+                    <h4 class="card-title">Room with view of BGC skyline</h4>
+                    <h6 class="card-content text-muted">Checking Out</h6>
+                    <p>Ashley Kang<br>
+                    June 18, 2023</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="resources/woman.png" class="pt-2" alt="" style="max-width: 80%; height: auto;">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card dashboard-card mb-4">
+              <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-8">
+                    <h4 class="card-title">Room with view of BGC skyline</h4>
+                    <h6 class="card-content text-muted">Currently Hosting</h6>
+                    <p>Jack Lee<br>
+                    June 19, 2023</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="resources/man.png" class="pt-2" alt="" style="max-width: 80%; height: auto;">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card dashboard-card mb-4">
+              <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-8">
+                    <h4 class="card-title">Room with view of BGC skyline</h4>
+                    <h6 class="card-content text-muted">Checking in</h6>
+                    <p>Justin Perez<br>
+                    June 20, 2023</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="resources/man1.png" class="pt-2" alt="" style="max-width: 80%; height: auto;">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h6 class="">How is the Experience? <a href="#">Share your feedback</a></h6>
+    </div>
+
+      
+      
+    <div class="container pt-5">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Staycapade, Inc</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="catalog.html" class="nav-link px-2 text-body-secondary">Listings</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+          <li class="nav-item"><a href="blog.html" class="nav-link px-2 text-body-secondary">Community</a></li>
+          <li class="nav-item"><a href="register.html" class="nav-link px-2 text-body-secondary">Join Us!</a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

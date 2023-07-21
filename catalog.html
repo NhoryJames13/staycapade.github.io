@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catalog</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 nav-shadow">
+      <div class="container">
+          <a class="navbar-brand px-1" href="#"><img src="resources/logo.png" alt="" style="max-width: 40%; height: auto; align-content: center;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end order-lg-last" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item px-2">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item px-2 active">
+                <a class="nav-link" href="catalog.html">Book Now</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="community.html">Community</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="register.html">Register</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+  </nav>
+  <div class="overlay-container">
+    <img src="resources/catalog.jpg" alt="Background Image" class="img-fluid" style="max-width: 100%; height: auto; filter: opacity(0.6) drop-shadow(0 0 black);">
+      <div class="overlay-text1">
+        <h1 class="home-hero">Staycapade</h1>
+        <div class="input-group pt-4">
+          <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-light" type="button" id="button-addon2">Search</button>
+        </div>
+        <div class="filter-buttons mt-5">
+          <button type="button" class="btn btn-light">
+            <i class="bi bi-house-door"></i> Rooms
+          </button>
+          <button type="button" class="btn btn-light">
+            <i class="bi bi-umbrella"></i> Beachfront
+          </button>
+          <button type="button" class="btn btn-light">
+            <i class="bi bi-droplet-half"></i> Pools
+          </button>
+          <button type="button" class="btn btn-light">
+            <i class="bi bi-eye"></i> Views
+          </button>
+          <button type="button" class="btn btn-light">
+            <i class="bi bi-three-dots-vertical"></i>
+          </button>
+        </div>
+      </div>
+  </div>
+  
+  <!-- POPULAR SECTION -->
+  <div class="container mt-5">
+    <h1>Popular</h1>
+    <p class="border-bottom pt-3"></p>
+    <div id="carouselExampleControls" class="carousel slide px-3 py-3" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- SLIDE 1 -->
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property1.html"><img src="resources/1.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">The Blackbox</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Forde, Vestland Fylke, Norway</h6>
+                  <p class="card-text"> Relax, rejuvenate and unplug in this unique contemporary Birdbox. </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 16,000 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.88 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property2.html"><img src="resources/2.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Dreamy A-Frame Cabin</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Kalayaan, Calabarzon, Philippines</h6>
+                  <p class="card-text"> Stay in a unique A-frame cabin with lake views. </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 3,500 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 5 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property3.html"><img src="resources/3.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Colorado Lodge</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Breckenridge, Colorado, United States</h6>
+                  <p class="card-text"> Whether you are one or three families, everyone will love staying at Quandary Peak Lodge!  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 24,500 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.92 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDE 2 -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property4.html"><img src="resources/4.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Charming Country Home</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Cayambe, Pichincha, Ecuador</h6>
+                  <p class="card-text"> If you are looking for a break from the noise of the city and connect with nature, this is the place for you.  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 20,100 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.88 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property5.html"><img src="resources/5.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Pine Hwangto Guduljang Hanok House</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Gangwon Province, South Korea</h6>
+                  <p class="card-text"> This is a 20-pyeong hanok accommodation in the forest next to the sea.  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 12,900 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.89 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property6.html"><img src="resources/6.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Piece-of-Art-Loft</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Tulum, Quintana Roo, Mexico</h6>
+                  <p class="card-text"> Penthouse Canopia let you experience the magic of Tulum.   </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 22,000 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.99 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- AMERICAS SECTION -->
+  <div class="container mt-5">
+    <h1>Americas</h1>
+    <p class="border-bottom pt-3"></p>
+    <div id="carouselExampleControls2" class="carousel slide px-3 py-3" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- SLIDE 1 -->
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property6.html"><img src="resources/6.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Piece-of-Art-Loft</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Tulum, Quintana Roo, Mexico</h6>
+                  <p class="card-text"> Penthouse Canopia let you experience the magic of Tulum.   </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 22,000 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.99 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property11.html"><img src="resources/11.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Cozy room in a Vegan Oasis</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"> Sao Paolo, Brazil</h6>
+                  <p class="card-text"> Stay in a vegan home, where we have artisanal factory, shop, restaurant, spa and lodging. The room is large, with a new soft single bed, comfortable sofa, table and chair. </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 3,500 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.84 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property3.html"><img src="resources/3.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Colorado Lodge</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Breckenridge, Colorado, United States</h6>
+                  <p class="card-text"> Whether you are one or three families, everyone will love staying at Quandary Peak Lodge!  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 24,500 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.92 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDE 2 -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property7.html"><img src="resources/7.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Wanderlust Treehouse</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Crane Hill, Alabama, United States</h6>
+                  <p class="card-text"> Our very unique treehouse is nestled into the treetops on 40 acres of forest. Great for a couples retreat, honeymoon, or spiritual reconnecting.  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 13,000 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.99 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property12.html"><img src="resources/12.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Peaceful Modern A-Frame Cabin</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"> Lake Arrowhead, California, United States</h6>
+                  <p class="card-text"> Enjoy your morning coffee gazing towards an unobstructed forest view. Nature pours through every window. The Peaceful Modern has been renovated to be open, spacious, and full of light.  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 18,500 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 5 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property13.html"><img src="resources/13.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Cottage on Lake Simcoe</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Brechin, Ontario, Canada</h6>
+                  <p class="card-text"> We have a lovely cottage available for Rent in the heart of Simcoe county - A warm cozy cottage right across the beautiful Lake Simcoe - Truly a paradise with unforgettable sunrise and sunset.</p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 18,500 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 5 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property4.html"><img src="resources/4.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Charming Country Home</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Cayambe, Pichincha, Ecuador</h6>
+                  <p class="card-text"> If you are looking for a break from the noise of the city and connect with nature, this is the place for you.  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 20,100 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.88 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property15.html"><img src="resources/15.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Chalé | Olivais Santa Clara Lodge</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Cambuí, Minas Gerais, Brazil</h6>
+                  <p class="card-text"> Reconnect with nature at this unforgettable escape. Spend incredible days at a chalet between mountains and olive groves in southern Minas Gerais (on the Gonçalves, Cambuí and Monte Verde circuits).  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 9,000 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.98 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <!-- ADD -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ASIA SECTION -->
+
+  <div class="container mt-5">
+    <h1>Asia</h1>
+    <p class="border-bottom pt-3"></p>
+    <div id="carouselExampleControls1" class="carousel slide px-3 py-3" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- SLIDE 1 -->
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property5.html"><img src="resources/5.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Pine Hwangto Guduljang Hanok House</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Gangwon Province, South Korea</h6>
+                  <p class="card-text"> This is a 20-pyeong hanok accommodation in the forest next to the sea. Be comfortable in a traditional hanok house.</p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 12,900 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.89 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property2.html"><img src="resources/2.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Dreamy A-Frame Cabin</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Kalayaan, Calabarzon, Philippines</h6>
+                  <p class="card-text"> Stay in a unique A-frame cabin with lake views. Good for 5 person. Call us if you want to try lake fishing!</p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 3,500 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 5 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property10.html"><img src="resources/10.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Yonehara-shi, Shiga Prefecture</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Maibara, Shiga, Japan</h6>
+                  <p class="card-text"> Experience an authentic Japanese living with your family or friends. Enjoy your time in a peaceful, quiet and clean environment. </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 13,000 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.85 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDE 2 -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property8.html"><img src="resources/8.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Beachfront Batalang Bato Beach Retreat Cottage</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Mabini, Calabarzon, Philippines</h6>
+                  <p class="card-text"> We would love to share our sanctuary and have it enjoyed by respectful guests who appreciates nature and recognize the responsibility that comes with it. Located in a marine sanctuary.  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 16,000 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.91 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <!-- ADD -->
+            </div>
+            <div class="col">
+              <!-- ADD -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</div>
+
+  <!-- EUROPE SECTION -->
+
+  <div class="container mt-5">
+    <h1>Europe</h1>
+    <p class="border-bottom pt-3"></p>
+    <div id="carouselExampleControls3" class="carousel slide px-3 py-3" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- SLIDE 1 -->
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property1.html"><img src="resources/1.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">The Blackbox</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Forde, Vestland Fylke, Norway</h6>
+                  <p class="card-text"> Relax, rejuvenate and unplug in this unique contemporary Birdbox. </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 16,000 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.88 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property9.html"><img src="resources/9.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Kolsstaðir - Piece of Heaven</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Búðardalur, Dalasýsla, Iceland</h6>
+                  <p class="card-text"> Kolsstaðir is located in a remote & unspoiled natural setting in the mountains of west Iceland. Kolsstaðir is Ideal for hiking, meditating, outdoor- and artistic activities as well as observing the Northern lights when they are visible .</p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 16,000 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.97 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property14.html"><img src="resources/14.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">10th Century Medieval Castle</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Llaés, Catalonia, Spain</h6>
+                  <p class="card-text"> In the Ripollès region, between rivers, valleys and mountains, the ancient Castle of Llaés (10th century) stands splendidly. A unique place, of exceptional beauty, where absolute tranquility reigns in the middle of an exuberant nature. </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 28,000 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 5 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDE 2 -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 25rem;"> 
+                <a href="property16.html"><img src="resources/16.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">El Avistador. Montes de Toledo</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Sonseca, CM, Spain</h6>
+                  <p class="card-text"> In a unique enclave, opposite the Montes de Toledo, a few meters from the beginning of the mountain range. Framing, as if a photographic frame were involved, we have developed a novel and different architecture.  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p class="card-text"> ₱ 6,000 night</p>
+                    </div>
+                    <div class="col d-flex flex-row-reverse ">
+                      <p><span><i class="bi bi-star-fill"></i> 4.93 stars</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <!-- ADD -->
+            </div>
+            <div class="col">
+              <!-- ADD -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</div>
+
+<!-- OCEANIE -->
+
+<div class="container mt-5">
+  <h1>Oceania</h1>
+  <p class="border-bottom pt-3"></p>
+  <div id="carouselExampleControls4" class="carousel slide px-3 py-3" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- SLIDE 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 25rem;"> 
+              <a href="property17.html"><img src="resources/17.png" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">1B Docklands apt/Amazing view facilities</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Docklands, Victoria, Australia</h6>
+                <p class="card-text"> Relax, rejuvenate and unplug in this unique contemporary apartment. </p>
+              </div>
+              <div class="card-footer">
+                <div class="row pt-3">
+                  <div class="col">
+                    <p class="card-text"> ₱ 4,800 night</p>
+                  </div>
+                  <div class="col d-flex flex-row-reverse ">
+                    <p><span><i class="bi bi-star-fill"></i> 4.98 stars</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 25rem;"> 
+              <a href="property18.html"><img src="resources/18.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">Designer Tiny Home w/ Stunning Dam Views</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Kangaroo Valley, New South Wales, Australia                </h6>
+                <p class="card-text"> Banksia is set on a working chicken farm in the heart of Kangaroo Valley, NSW. The tiny home is architecturally designed featuring an outdoor bath that makes you feel like you are floating out to the dam.</p>
+              </div>
+              <div class="card-footer">
+                <div class="row pt-3">
+                  <div class="col">
+                    <p class="card-text"> ₱ 9,000 night</p>
+                  </div>
+                  <div class="col d-flex flex-row-reverse ">
+                    <p><span><i class="bi bi-star-fill"></i> 4.98 stars</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 25rem;"> 
+              <a href="property14.html"><img src="resources/14.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">Skylark Cabin</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Twizel, Canterbury, New Zealand</h6>
+                <p class="card-text"> Skylark Cabin is a private, luxury escape, nestled serenely within the awe-inspiring landscape of the Mackenzie Region. </p>
+              </div>
+              <div class="card-footer">
+                <div class="row pt-3">
+                  <div class="col">
+                    <p class="card-text"> ₱ 13,000 night</p>
+                  </div>
+                  <div class="col d-flex flex-row-reverse ">
+                    <p><span><i class="bi bi-star-fill"></i> 5 stars</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SLIDE 2 -->
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="container pt-5">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Staycapade, Inc</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="catalog.html" class="nav-link px-2 text-body-secondary">Listings</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+      <li class="nav-item"><a href="blog.html" class="nav-link px-2 text-body-secondary">Community</a></li>
+      <li class="nav-item"><a href="register.html" class="nav-link px-2 text-body-secondary">Join Us!</a></li>
+    </ul>
+  </footer>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
