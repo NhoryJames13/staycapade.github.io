@@ -1,5 +1,5 @@
 # Welcome
-This repository stores the source code of Staycapade's static website. This website is made for educational purposes only. All images and some contents included this website belong to their owners.
+This repository stores the source code of Staycapade's static website. This website is made for educational purposes only. All images (aside from our company logos) and some contents included in this website belong to their owners.
 
 
 ## Webpages
